@@ -48,4 +48,3 @@ RUN unzip -qqo /tmp/$CRAFT_ZIP 'craft/*' -d /var/www/ && \
 
 USER www-data
 WORKDIR /var/www/
-ONBUILD RUN composer install
